@@ -4,15 +4,64 @@ const CONFIG = {
   },
   base: '/gitprofile/',
   projects: {
-    github: {
-      display: true,
-      header: 'Github Projects',
-      mode: 'manual',
-      manual: {
-        projects: ['Kaanishkaa/Ecoplate-Analytics', 'CI-CMG/OceanAcoustics-LabManual'],
+  github: {
+    display: true, // Display GitHub projects?
+    header: 'Github Projects',
+    mode: 'manual', // Mode can be: 'automatic' or 'manual'
+    manual: {
+      // Manually specifying projects
+      projects: ['Kaanishkaa/Ecoplate-Analytics', 'CI-CMG/OceanAcoustics-LabManual'], // Your GitHub project repositories
+    },
+    automatic: {
+      sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+      limit: 8, // How many projects to display
+      exclude: {
+        forks: false, // Forked projects will not be displayed if set to true
+        projects: [], // Projects to exclude
       },
     },
   },
+  external: {
+    header: 'My Projects',
+    projects: [
+      {
+        title: 'Ecoplate Analytics',
+        description: `Conducted a machine learning project, analyzing global food loss and waste data from 1965 to 2022.
+                      Objective: Map regional patterns of food loss and waste.
+                      Methods: Classification, outlier detection, time series analysis, and geospatial mapping.
+                      Key Insights: Identified regions with high food loss, detected anomalies, and provided actionable insights to improve supply chain efficiency.`,
+        imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        link: 'https://github.com/Kaanishkaa/Ecoplate-Analytics',
+      },
+      {
+        title: 'Forethinker',
+        description: `Forethinker - The Future of News Delivery: Integrating AI, Big Data, and Cloud Services to Revolutionize Journalism.
+                      This project filters and aggregates industry-specific content to deliver tailored news summaries for C-level executives.`,
+        imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        link: '',
+      },
+      {
+        title: 'Analysing the Impact of Movie Run Time on Ratings and Box Office Collections',
+        description: `Examined the impact of movie runtime on ratings and box office earnings using z-test methodology and web-scraping 1000 movies from IMDb.`,
+        imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        link: '',
+      },
+      {
+        title: 'CineCipher',
+        description: `Developed a content recommendation algorithm using Natural Language Processing (NLP) to match movies to user preferences.`,
+        imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        link: '',
+      },
+      {
+        title: 'Deep Fake Detection System',
+        description: `Used deep learning methods like ResNet and LSTM for deepfake detection in video media, utilizing transfer learning and developing the proprietary model WHYNet for accurate detection.`,
+        imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        link: '',
+      },
+    ],
+  },
+},
+
   seo: {
     title: 'Portfolio of Kanishka Ghodke',
     description: 'CIRES Professional Research Assistant | MS in Data Science at the University of Colorado Boulder. Experienced in data visualization, machine learning, and acoustic monitoring research.',
