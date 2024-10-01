@@ -188,27 +188,97 @@ const CONFIG = {
   },
   // Keeping previous experiences...
 ],
-
-  certifications: [
+certifications: [
   {
-    name: 'Google Cloud Data Analytics Certificate',
-    body: 'Google',
-    year: 'September 2024',
+    name: 'Expressway to Data Science: R Programming and Tidyverse Specialization',
+    body: 'University of Colorado Boulder',
+    year: 'August 2023',
+    credentialId: 'JUHYBAKCXSFY',
     link: '',
   },
   {
-    name: 'Expressway to Data Science: R Programming and Tidyverse',
-    body: 'University of Colorado',
-    year: 'June - August 2023',
+    name: 'Python Bootcamp',
+    body: 'CodeOS',
+    year: 'September 2021',
+    credentialId: 'M793-ANUK-KA4K-U8PI',
     link: '',
   },
   {
-    name: 'Amazon AWS Cloud Foundation',
-    body: 'Amazon',
-    year: 'December 2022',
+    name: 'Interactivity with Javascript',
+    body: 'University of Michigan',
+    year: 'August 2021',
+    credentialId: '2QUYXRACQQEA',
+    link: '',
+  },
+  {
+    name: 'Introduction to Artificial Intelligence',
+    body: 'IBM',
+    year: 'July 2021',
+    credentialId: 'D96JUXLNNDNB',
+    link: '',
+  },
+  {
+    name: 'Introduction to CSS3',
+    body: 'University of Michigan (Coursera)',
+    year: 'July 2021',
+    credentialId: 'P46LHMAKXEVS',
+    link: '',
+  },
+  {
+    name: 'Introduction to HTML5',
+    body: 'University of Michigan (Coursera)',
+    year: 'July 2021',
+    credentialId: 'FFNHZFJXJSNE',
+    link: '',
+  },
+  {
+    name: 'Getting Started with Python',
+    body: 'University of Michigan (Coursera)',
+    year: 'June 2021',
+    credentialId: 'DG5NFD35DAW8',
+    link: '',
+  },
+  {
+    name: 'Game Development using Java',
+    body: 'RAIT ACM Student Chapter',
+    year: 'March 2021',
+    credentialId: '183227',
+    link: '',
+  },
+  {
+    name: 'Hour of Code',
+    body: 'RAIT ACM Student Chapter',
+    year: 'December 2020',
+    link: '',
+  },
+  {
+    name: 'GIT and Version Control',
+    body: 'RAIT ACM Student Chapter',
+    year: 'November 2020',
+    link: '',
+  },
+  {
+    name: 'Game Development Workshop',
+    body: 'RAIT ACM Student Chapter',
+    year: 'November 2020',
+    link: '',
+  },
+  {
+    name: 'Data Visualisation with R',
+    body: 'RAIT ACM Student Chapter',
+    year: 'January 2020',
+    credentialId: 'ID183227',
+    link: '',
+  },
+  {
+    name: 'L1-Robotics',
+    body: 'IEEE Student Chapter at RAIT',
+    year: 'September 2019',
+    credentialId: 'IEEE2019L116ASOD',
     link: '',
   },
 ],
+
  educations: [
   {
     institution: 'The University of Colorado Boulder',
