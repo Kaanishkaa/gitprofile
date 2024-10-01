@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Kaanishkaa', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,11 +25,11 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Kaanishkaa/Ecoplate-Analytics', 'CI-CMG/OceanAcoustics-LabManual'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'EcoPlate Analytics',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -52,20 +52,20 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Kanishka Ghodke',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'https://www.linkedin.com/in/kanishka-ghodke-a723921b7/',
+    twitter: 'KaniSpeaks',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'kanishkag',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'Kanishka-Ghodke', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
@@ -76,7 +76,7 @@ const CONFIG = {
     telegram: '',
     website: 'https://www.arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'kanishka.ghodke@colordo.edu',
   },
   resume: {
     fileUrl:
