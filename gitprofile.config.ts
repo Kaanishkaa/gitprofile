@@ -77,7 +77,7 @@ const CONFIG = {
   social: {
     linkedin: 'https://www.linkedin.com/in/kanishka-ghodke-a723921b7/',
     twitter: 'KaniSpeaks',
-    instagram: 'kanishkag',
+    instagram: 'kanishkag_',
     youtube: 'Kanishka-Ghodke',
     email: 'kanishka.ghodke@colorado.edu',
   },
