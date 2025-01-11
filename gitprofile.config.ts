@@ -10,8 +10,7 @@ const CONFIG = {
     mode: 'manual', // Mode can be: 'automatic' or 'manual'
     manual: {
       // Manually specifying projects
-      projects: ['Kaanishkaa/Ecoplate-Analytics', 'CI-CMG/OceanAcoustics-LabManual', 'Kaanishkaa/gitprofile','Kaanishkaa
-Chess-Game-statistics--data-analysis-project' , ], // Your GitHub project repositories
+      projects: ['Kaanishkaa/Ecoplate-Analytics', 'Kaanishkaa/gitprofile','Kaanishkaa/Chess-Game-statistics--data-analysis-project'  ], // Your GitHub project repositories
     },
     automatic: {
       sortBy: 'stars', // Sort projects by 'stars' or 'updated'
