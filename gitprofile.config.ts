@@ -75,14 +75,14 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/kanishka-ghodke-a723921b7/',
+    linkedin: 'https://www.linkedin.com/in/kanishka-ghodke/',
     twitter: 'KaniSpeaks',
     instagram: 'kanishkag_',
     youtube: 'Kanishka-Ghodke',
     email: 'kanishka.ghodke@colorado.edu',
   },
   resume: {
-    fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+    fileUrl: 'https://docs.google.com/document/d/1aFxfx1BqrJQX_pjn8n1LhGEqJQglHnJn/edit?usp=sharing&ouid=116229939678301027949&rtpof=true&sd=true',
   },
   skills: [
   'C++',
@@ -120,14 +120,14 @@ const CONFIG = {
     'Sanskrit (Limited Working)',
     'Hindi (Elementary)',
     'English (Full Professional)',
-    'Marathi (Elementary)',
+   
   ],
   experiences: [
   {
     company: 'NOAA: National Oceanic & Atmospheric Administration',
     position: 'CIRES Professional Research Assistant',
     from: 'August 2024',
-    to: 'Present',
+    to: 'January 2025',
     companyLink: 'https://www.noaa.gov/',
     description: `Project: Evaluating and Automating Soundscape Condition Methods Using Unsupervised Separation.
       - Updated and generalized existing code to work with standardized passive acoustic monitoring data using Triton, a MATLAB-based acoustic data processing program.
